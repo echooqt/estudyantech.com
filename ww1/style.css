@@ -1,0 +1,528 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: Amasis MT Pro Black;
+	height: 90vh;
+	background-image: url('../header.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+nav{
+	background-image: url('../Tryy.png');
+	height: 80px;
+	width: 100%;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+	margin-left: 180px;
+	float: left;
+}
+label.logoname{
+	color:#fff;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	float: left;
+}
+nav ul{
+	float: right;
+	margin-right: 150px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 9px;
+	color: black;
+	text-transform: uppercaser;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+nav ul li a{
+	color: black;
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	border: 1px transparent;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: lightcyan;
+	transition: .9s ease;
+}
+div.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+div.title p{
+	color: #fff;
+	font-size: 70px;
+	font-family: cooper black;
+}
+.intro{
+	position: absolute;
+	top: 135%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.intro{
+	color: brown;
+	font-size: 30px;
+	font-family: congenial black;
+}
+.name{
+	position: absolute;
+	top: 148%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.syndat{
+	width: 800px;
+	position: absolute;
+	top: 184%;
+	left: 50%;
+	transform: translate(-70%,-50%);
+}
+.name1{
+	position: absolute;
+	top: 224%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name1{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.echo{
+	width: 800px;
+	position: absolute;
+	top: 260%;
+	left: 50%;
+	transform: translate(-70%,-50%);
+}
+.name2{
+	position: absolute;
+	top: 300%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name2{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.aly{
+	width: 800px;
+	position: absolute;
+	top: 336%;
+	left: 50%;
+	transform: translate(-70%,-50%);
+}
+.name3{
+	position: absolute;
+	top: 376%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name3{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.robin{
+	width: 800px;
+	position: absolute;
+	top: 412%;
+	left: 50%;
+	transform: translate(-70%,-50%);
+}
+.name4{
+	position: absolute;
+	top: 452%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name4{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.rosa{
+	width: 800px;
+	position: absolute;
+	top: 488%;
+	left: 50%;
+	transform: translate(-70%,-50%);
+}
+.name5{
+	position: absolute;
+	top: 528%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name5{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.prince{
+	width: 675px;
+	position: absolute;
+	top: 566%;
+	left: 50%;
+	transform: translate(-75%,-50%);
+}
+.name6{
+	position: absolute;
+	top: 608%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name6{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.non{
+	width: 675px;
+	position: absolute;
+	top: 639%;
+	left: 50%;
+	transform: translate(-75%,-50%);
+}
+.name7{
+	position: absolute;
+	top: 674%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.name7{
+	color: black;
+	font-size: 45px;
+	font-family: congenial black;
+	font-weight: bold;
+}
+.apple{
+	width: 675px;
+	position: absolute;
+	top: 710%;
+	left: 50%;
+	transform: translate(-75%,-50%);
+}
+.content{
+	position: absolute;
+	top: 755%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.content{
+	color: black;
+	font-size: 23px;
+	font-family: congenial black;
+}
+footer{
+	position: absolute;
+	top: 770%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+footer{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+.checkbtn{
+	font-size: 30px;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+@media (max-width: 952px){
+	label.logoname{
+		font-size: 30px;
+		padding-left: 55px;
+		float: center;
+	}
+	img{
+		float: left;
+		margin-left: 20px;
+	}
+	nav ul li{
+		font-size: 20px;
+	}
+	body{
+	font-family: Amasis MT Pro Black;
+	height: 60vh;
+	background-image: url('../header.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    }
+    label.logoname{
+    display: none;
+    }
+    .intro{
+    position: absolute;
+	top: 67%;
+	left: 50%;
+	text-align: center;
+        width: 300px;
+	}
+	.intro{
+	color: brown;
+	font-size: 18px;
+	font-family: congenial black;
+	}
+	.name{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+    .syndat{
+	width: 300px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name1{
+	position: absolute;
+	top: 105%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name1{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .echo{
+	width: 300px;
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name2{
+	position: absolute;
+	top: 135%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name2{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .aly{
+	width: 300px;
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name3{
+	position: absolute;
+	top: 165%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name3{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .robin{
+	width: 300px;
+	position: absolute;
+	top: 180%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name4{
+	position: absolute;
+	top: 195%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name4{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .rosa{
+	width: 300px;
+	position: absolute;
+	top: 210%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name5{
+	position: absolute;
+	top: 225%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name5{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .prince{
+	width: 300px;
+	position: absolute;
+	top: 243%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name6{
+	position: absolute;
+	top: 261%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name6{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .non{
+	width: 300px;
+	position: absolute;
+	top: 275.5%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .name7{
+	position: absolute;
+	top: 290%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+    .name7{
+	color: black;
+	font-size: 28px;
+	font-family: congenial black;
+	font-weight: bold;
+    }
+   .apple{
+	width: 300px;
+	position: absolute;
+	top: 307%;
+	left: 50%;
+	transform: translate(-55%,-50%);
+    }
+    .content{
+    position: absolute;
+	top: 330%;
+	left: 50%;
+	width: 300px;
+	text-align: center;
+    }
+	footer{
+	position: absolute;
+	top: 345%;
+	left: 50%;
+	text-align: center;	
+	width: 300px;	
+    }
+    footer{
+    color: black;
+	font-size: 12px;	
+    }	
+}
+@media (max-width: 858px){
+		.checkbtn{
+		display: block;
+		color: whitesmoke;
+	}
+	ul{
+		position: absolute;
+		width: 100%;
+		height: 50vh;
+		background: #2c3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .1s;
+	}
+	ul a{
+		display: block;
+		margin: 0;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul i a{
+		font-size: 50px;
+	}
+	a:hover,a.active{
+		background: none;
+		color: #0082e6;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+
